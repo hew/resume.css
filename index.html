@@ -10,8 +10,8 @@
     <meta name="author" content="Matthew Jones" />
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="hvmmus">
-    <meta name="twitter:creator" content="@hvmmus">
+    <meta name="twitter:site" content="tahini">
+    <meta name="twitter:creator" content="@tahini">
     <meta name="twitter:title" content="Matthew Jones' Resume">
     <meta name="twitter:description" content="Matthew Jones is a designer &amp; developer from Vancouver, Canada.">
 
@@ -34,12 +34,31 @@
     <![endif]-->
 
     <style>
+      span {
+        font-size: 16px;
+      }
       code {
         background: none;
         border: none;
-
-        }
-      span { font-size: 16px; }
+      }
+      .flexed {
+        display: flex;
+        align-items: center;
+      }
+      .footer {
+        margin-left: 0.5rem;
+      }
+      .footer a {
+        text-decoration: none;
+        color: #393A39;
+        font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+        margin-right: 0.5rem;
+       }
+       .footer a:after {
+         content: '/';
+         margin-right: 0.5rem;
+         margin-left: 0.5rem;
+       }
     </style>
 
 
@@ -121,6 +140,14 @@
 
 
         </section> <!-- end section -->
+
+        <section>
+          <p class="footer flexed">
+            <a href="http://hew.tools">website</a>
+            <a href="http://github.com/hew">github</a>
+            <a href="http://twitter.com/tahini">twitter</a>
+          </p>
+        </section>
 
     </div> <!-- end container -->
 
